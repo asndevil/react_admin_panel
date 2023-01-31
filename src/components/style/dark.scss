@@ -1,0 +1,76 @@
+.app.dark {
+  background: #242424;
+  color: rgb(173, 173, 173);
+  .table {
+    background: #242424;
+
+    .tableCell {
+      color: rgb(173, 173, 173);
+    }
+  }
+  .navbar {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+    .wrapper {
+      .search__container {
+        border: 1px solid rgb(156, 156, 156);
+        .searchIcon {
+          color: rgb(189, 189, 189);
+        }
+      }
+    }
+  }
+  .sidebar {
+    border-right: 1px solid rgba(128, 128, 128, 0.336);
+    .top {
+      .navLinks {
+        text-decoration: none;
+        color: rgb(189, 189, 189);
+      }
+    }
+    .bottom__underline {
+      border-right: 1px solid rgba(128, 128, 128, 0.336);
+    }
+    .center {
+      .navLinks {
+        text-decoration: none;
+      }
+      ul {
+        li {
+          .icon {
+            color: rgb(189, 189, 189);
+          }
+          &:hover {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+  .data__table {
+    .data__grid {
+      color: grey;
+      border: none;
+      .action__button {
+        .nav__links {
+          text-decoration: none;
+        }
+        .view__button,
+        .delete__button {
+          border: none;
+          color: grey;
+        }
+      }
+    }
+    .status__check {
+      border: none;
+      &.active {
+        color: rgb(216, 214, 214);
+        background: #1fb70080;
+      }
+      &.pending {
+        color: rgb(240, 239, 239);
+        background: #fad12c93;
+      }
+    }
+  }
+}

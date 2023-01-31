@@ -1,0 +1,59 @@
+.single__list {
+  width: 100%;
+  display: flex;
+  .single__list__container {
+    flex: 6;
+  }
+  .top {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    .left {
+      flex: 1;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 20px;
+      position: relative;
+      .edit__button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        font-size: 15px;
+        background: rgba(211, 211, 211, 0.39);
+        color: blue;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      .item {
+        display: flex;
+        gap: 20px;
+        .details {
+          .itemTitle {
+            margin-bottom: 10px;
+          }
+          .itemDetails {
+            display: flex;
+            font-size: 15px;
+            margin-bottom: 10px;
+            .item__key {
+              color: grey;
+              font-weight: bold;
+              margin-right: 10px;
+            }
+          }
+        }
+        .single__user__profile {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+        }
+      }
+    }
+    .right {
+      flex: 2;
+    }
+  }
+  .bottom {
+    padding: 10px;
+  }
+}
